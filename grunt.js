@@ -12,7 +12,6 @@ module.exports = function(grunt) {
           globals: ['describe', 'it'],
           timeout: 15000,
           ignoreLeaks: false,
-          // grep: '*_test',
           ui: 'bdd',
           reporter: 'spec'
         }
@@ -20,7 +19,6 @@ module.exports = function(grunt) {
     },
 
     lint: {
-      // files: ['grunt.js', 'lib/**/*.js', 'test/**/*.js']
       files: ['grunt.js', 'lib/**/*.js']
     },
     watch: {
@@ -51,7 +49,6 @@ module.exports = function(grunt) {
   grunt.registerTask('test', 'simplemocha');
 
   // Default task.
-  // grunt.registerTask('default', 'lint test');
   grunt.registerTask('default', 'lint simplemocha');
 
 };

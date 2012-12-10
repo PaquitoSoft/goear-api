@@ -2,22 +2,22 @@
   "name": "goear_api",
   "description": "Simple API to goear service.",
   "version": "1.0.0",
-  "homepage": "https://github.com/PaquitoSoft/goear_api",
+  "homepage": "https://github.com/PaquitoSoft/goear-api",
   "author": {
     "name": "PaquitoSoft",
     "email": "paquitosoftware@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/PaquitoSoft/goear_api.git"
+    "url": "git://github.com/PaquitoSoft/goear-api.git"
   },
   "bugs": {
-    "url": "https://github.com/PaquitoSoft/goear_api/issues"
+    "url": "https://github.com/PaquitoSoft/goear-api/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/PaquitoSoft/goear_api/blob/master/LICENSE-MIT"
+      "url": "https://github.com/PaquitoSoft/goear-api/blob/master/LICENSE-MIT"
     }
   ],
   "main": "lib/goear_api",
@@ -39,5 +39,5 @@
     "grunt-simple-mocha": ">= 0.2.0",
     "chai": ">= 1.4.0"
   },
-  "keywords": []
+  "keywords": ["music","api","service"]
 }

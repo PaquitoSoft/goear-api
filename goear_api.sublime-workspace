@@ -1,0 +1,1806 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sear",
+				"searchBaseUrl"
+			],
+			[
+				"service",
+				"serviceConfig"
+			],
+			[
+				"subs",
+				"substitute"
+			],
+			[
+				"resul",
+				"resultsCount"
+			],
+			[
+				"popove",
+				"popoverEl"
+			],
+			[
+				"currentT",
+				"currentTrackIndex"
+			],
+			[
+				"currentTRa",
+				"currentTrackEl"
+			],
+			[
+				"currentTrac",
+				"currentTrackCid"
+			],
+			[
+				"curentT",
+				"currentTrackIndex"
+			],
+			[
+				"original",
+				"originalIndex"
+			],
+			[
+				"track",
+				"trackIndex"
+			],
+			[
+				"control",
+				"control-group"
+			],
+			[
+				"success",
+				"successFlash"
+			],
+			[
+				"update",
+				"updatePlaylistItemUI"
+			],
+			[
+				"show",
+				"showWarning"
+			],
+			[
+				"currentTr",
+				"currentTrackIndex"
+			],
+			[
+				"currentTra",
+				"currentTrackIndex"
+			],
+			[
+				"curr",
+				"currentTrackIndex"
+			],
+			[
+				"getTr",
+				"getTrackIndex"
+			],
+			[
+				"emp",
+				"emptyEl"
+			],
+			[
+				"toLo",
+				"toLocaleTimeString"
+			],
+			[
+				"trackAdded",
+				"trackAddedToPlaylistHandler"
+			],
+			[
+				"Playlist",
+				"PlaylistsView"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"pre",
+				"prevResultsLen"
+			],
+			[
+				"results",
+				"resultsContainer"
+			],
+			[
+				"fetch",
+				"fetchPlaylists"
+			],
+			[
+				"alert",
+				"alertPlugin"
+			],
+			[
+				"em",
+				"emptyEl"
+			],
+			[
+				"empty",
+				"emptyListItem"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"po",
+				"popoverClass"
+			],
+			[
+				"guest",
+				"guestUserMsgTemplate"
+			],
+			[
+				"playli",
+				"playlists"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"playlists",
+				"playlistsEls"
+			],
+			[
+				"package",
+				"packageInfo"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"configure",
+				"configureTabs"
+			],
+			[
+				"pane",
+				"panelName"
+			],
+			[
+				"logg",
+				"loggedUser"
+			],
+			[
+				"currn",
+				"currentAudioQuality"
+			],
+			[
+				"current",
+				"currentAudioQuality"
+			],
+			[
+				"curren",
+				"currentAudioQuality"
+			],
+			[
+				"User",
+				"UserSettingsView"
+			],
+			[
+				"con",
+				"configureNewPasswordPanel"
+			],
+			[
+				"preventDe",
+				"preventDefault"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"drop",
+				"dropdown-toggle"
+			],
+			[
+				"userSetting",
+				"UserSettingsView"
+			],
+			[
+				"settin",
+				"settingsView"
+			],
+			[
+				"req",
+				"requiredUser"
+			],
+			[
+				"user",
+				"userLoader"
+			],
+			[
+				"remo",
+				"remove"
+			],
+			[
+				"exist",
+				"exists"
+			],
+			[
+				"hide",
+				"hideTrackActionIcon"
+			],
+			[
+				"tracks",
+				"tracksContainer"
+			],
+			[
+				"sign",
+				"signup"
+			],
+			[
+				"logn",
+				"loginAction"
+			],
+			[
+				"pla",
+				"playlistsContainer"
+			],
+			[
+				"render",
+				"renderPlaylists"
+			],
+			[
+				"before",
+				"beforeShowEvent"
+			],
+			[
+				"el",
+				"elWidth"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"crea",
+				"createEmptyTracklist"
+			],
+			[
+				"create",
+				"createPlaylistPopTemplate"
+			],
+			[
+				"su",
+				"submitHandler"
+			],
+			[
+				"trck",
+				"tracklistTitle"
+			],
+			[
+				"tra",
+				"tracksContainer"
+			],
+			[
+				"save",
+				"saveCurrentTracks"
+			],
+			[
+				"ad",
+				"adviceShowed"
+			],
+			[
+				"timePro",
+				"timeProgressBarWidth"
+			],
+			[
+				"elapse",
+				"elapsedPercentage"
+			],
+			[
+				"trac",
+				"trackTitle"
+			],
+			[
+				"on",
+				"onYouTubePlayerReady"
+			],
+			[
+				"See",
+				"SeekerView"
+			],
+			[
+				"max",
+				"maxResults"
+			],
+			[
+				"last",
+				"lastSearchTerm"
+			],
+			[
+				"curre",
+				"currentSearchIndex"
+			],
+			[
+				"re",
+				"resultsContainer"
+			],
+			[
+				"viewMore",
+				"viewMoreResults"
+			],
+			[
+				"Search",
+				"SearchResults"
+			],
+			[
+				"searc",
+				"searchMaxResultsCount"
+			],
+			[
+				"searchTe",
+				"searchResultEl"
+			],
+			[
+				"panel",
+				"panelBottomPos"
+			],
+			[
+				"conf",
+				"configurableEls"
+			],
+			[
+				"forgotPass",
+				"forgotPasswordPanel"
+			],
+			[
+				"register",
+				"registerEventsListeners"
+			],
+			[
+				"createPL",
+				"createPlaylistDetailsPanelEl"
+			],
+			[
+				"popPane",
+				"popPanelCloseButton"
+			],
+			[
+				"createPla",
+				"createPlaylistDetailsPanelEl"
+			],
+			[
+				"createPan",
+				"createPlaylistDetailsPanelEl"
+			],
+			[
+				"getElem",
+				"getElements"
+			],
+			[
+				"tr",
+				"tracklistModel"
+			],
+			[
+				"bt",
+				"btn-primary"
+			],
+			[
+				"dropd",
+				"dropdown-menu"
+			],
+			[
+				"btn",
+				"btn-group"
+			],
+			[
+				"play",
+				"playlistsModel"
+			],
+			[
+				"playlistMe",
+				"playlistMenuIndicator"
+			],
+			[
+				"destinatio",
+				"destinationEl"
+			],
+			[
+				"des",
+				"destinationEl"
+			],
+			[
+				"loadUser",
+				"loadUserFromLoginToken"
+			],
+			[
+				"userRe",
+				"userRequiredRes"
+			],
+			[
+				"ori",
+				"originalEl"
+			],
+			[
+				"GA",
+				"GOOGLE_ANALYTICS_KEY"
+			],
+			[
+				"configu",
+				"configureAccountDropdownEl"
+			],
+			[
+				"accountDop",
+				"accountDropdownEl"
+			],
+			[
+				"loginL",
+				"loginLinkHandler"
+			],
+			[
+				"se",
+				"userSettingsLnk"
+			],
+			[
+				"createA",
+				"createAccountDropdownEl"
+			],
+			[
+				"login",
+				"logintoken"
+			],
+			[
+				"Login",
+				"loginToken"
+			],
+			[
+				"LoginT",
+				"LoginTokenSchema"
+			],
+			[
+				"random",
+				"randomToken"
+			],
+			[
+				"currentPlayli",
+				"currentPlaylist"
+			],
+			[
+				"resetTra",
+				"resetTracklistEl"
+			],
+			[
+				"playlist",
+				"playlistsModel"
+			],
+			[
+				"playlis",
+				"playlistsModel"
+			],
+			[
+				"IDb",
+				"iDbErrorTypes"
+			],
+			[
+				"encr",
+				"encryptPassword"
+			],
+			[
+				"playlistsLi",
+				"playlistsListEl"
+			],
+			[
+				"origi",
+				"originalElCoordinates"
+			],
+			[
+				"dbConnectionSta",
+				"dbConnectionStatus"
+			],
+			[
+				"READ_O",
+				"READ_ONLY_ERR"
+			],
+			[
+				"open",
+				"openingQueue"
+			],
+			[
+				"playl",
+				"playlistsStore"
+			],
+			[
+				"process",
+				"processInTx"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/service.js",
+			"settings":
+			{
+				"buffer_size": 3048,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/goear_api.js",
+			"settings":
+			{
+				"buffer_size": 2472,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/goear_api_test.js",
+			"settings":
+			{
+				"buffer_size": 524,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 959,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "grunt.js",
+			"settings":
+			{
+				"buffer_size": 1169,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 388.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"diff",
+				"Git: Diff Current File"
+			],
+			[
+				"diff ",
+				"Git: Diff Current File"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"projec",
+				"Project: Save As"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packe",
+				"Package Control: Discover Packages"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"console",
+				"Set Syntax: R Console"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/telemaco/Desarrollo/Node/Proyectos/goear_api/package.json",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/goear_api/grunt.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/goear_api/node_modules/grunt/lib/util/task.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/lib/bootstrap/bootstrap-ext.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/lib/bootstrap/bootstrap.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/css/custom.css",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/playlist_detail_view.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/models/playlist.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/lib/controllers/playlist.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/package.json",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/playlists_view.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/tracklist_view.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/lib/backbone/backbone-ext.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/seeker_view.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/plugins/player.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/lib/models/index.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/views/index.jade",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/modal_view.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/css/bootstrap-2.0.2.css",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/plugins/templates.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/user_settings_view.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/views/templates/index.jade",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/grunt.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/app.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/login_view.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/css/bootstrap.css",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/search_result_item_view.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/lib/controllers/index.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/lib/jquery/jquery-ui-1.8.23.custom.min.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/.gitignore",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/plugins/alert.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/lib/controllers/user.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/main.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/player_view.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/new_playlist_view.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/app_menu_view.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/dist/colton.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/collections/playlists.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/tracklist_item_view.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/plugins/time.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/lib/backbone/backbone.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/playlist_item_view.js",
+		"/Users/telemaco/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/telemaco/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/views/templates/_account.jade",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/models/user.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/plugins/user.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/lib/userLoader.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/user_menu_view.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/models/password_reminder.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/models/user_password.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/lib/jquery/jquery-1.7.2.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/views/templates/_login.jade",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/app.build.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/models/track.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/views/templates/templates.jade",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/lib/mustache/mustache.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/views/analytics.jade",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/lib/jquery/jquery.validation.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/views/index.html",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/models/session.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/views/index2.jade",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/lib/jquery/jquery.validation-ext.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/lib/controllers/password_reminder.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/models/search_result.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/plugins/popover.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/plugins/analytics.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/collections/tracks.js",
+		"/Users/telemaco/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/tincr.json",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/plugins/events.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/collections/search_results.js",
+		"/Users/telemaco/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/telemaco/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/track.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/about_view.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/contact_view.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/models/tracklist.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/app.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/models/searchResultItem.js",
+		"/Users/telemaco/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/templates/user_dropdown_menu.html",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/templates/modal.html",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/login_popup.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/login.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/templates/login.html",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/playlists.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/views/tracklist.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/lib/mustache/mustache-wrap.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/playerv2.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/seeker.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/views/index2.jade",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/package.json",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/core.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/logger.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/lib/models/index.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/css/custom.css",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/lib/utils.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/test/test.utils.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/lib/controllers/index.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/views/templates/templates.jade",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/account.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/lib/mootools/more_content.txt",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/lib/controllers/user.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/lib/userLoader.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/lib/mootools/mootools-core-1.4.4-full-nocompat.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/ajax.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/tracklist.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/templatesEngine.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/browserExtension.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/Makefile",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/popupPanel.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/lib/assets.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/lib/emailManager.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/playlists.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/views/email/password_recovery.mu",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/node_modules/mailer/lib/node_mailer.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/node_modules/mailer/package.json",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/templates.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/ajaxPlugin.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/css/demo.css",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/app.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/templateEngine.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/formTooltip.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/localRepo.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/models.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/nativeExt.js",
+		"/Users/telemaco/Desarrollo/Node/Proyectos/music_player/public/js/player.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/telemaco/Desarrollo/Node/Proyectos/colton/",
+			"/Users/telemaco/Desarrollo/Node/Proyectos/colton/view",
+			"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/",
+			"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js/app.build.js",
+			"/Users/telemaco/Desarrollo/Node/Proyectos/colton/public/js",
+			"/Users/telemaco/Desarrollo/Node/Proyectos/colton"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"api",
+			"grunt",
+			"getTracks",
+			"getTrackIndex",
+			"createPlaylistPop",
+			"configureCreatePla",
+			"POpover",
+			"destroy",
+			"popoverEl",
+			"tooltip",
+			"template",
+			"currentTr",
+			"tooltip",
+			"currentTracks",
+			"tracklist",
+			"len",
+			"configure",
+			"action",
+			"confi",
+			"confirm",
+			"playTrack",
+			"collection",
+			"playlist",
+			"find$",
+			"$find",
+			"find",
+			"playlistDeleted",
+			"publ",
+			"changeTab",
+			"selectResult",
+			"data-cid",
+			"searchRe",
+			"png",
+			"searchResultDragClone",
+			"tpl_search_result_drag_clone",
+			";\n",
+			"playlists",
+			"search",
+			"TODO",
+			"fetch",
+			"playlist",
+			"popover",
+			"removeByCid",
+			"playlistitem",
+			"playlists",
+			"seek",
+			"item",
+			"showDetails",
+			"shoDetails",
+			"playlist",
+			"userSession",
+			"user_settings_view",
+			"login",
+			"sync",
+			"sync:",
+			"remove:",
+			"model",
+			"idAttribute",
+			"fadeOut:",
+			"trackActions",
+			"table",
+			"hover",
+			"seek",
+			"playlist.tracks",
+			"TracklistItemView",
+			"receivePlaylist",
+			"'",
+			"localhost",
+			"validation",
+			"version",
+			"input",
+			"loginLnk",
+			"keyup",
+			"key",
+			"session",
+			"logger",
+			"userAccountDropdown",
+			"sys",
+			"util",
+			"logger",
+			"http",
+			"replaces:",
+			"loaderin",
+			"Playlists",
+			"error",
+			"control-group",
+			"validation-advice",
+			"player",
+			"shown",
+			"modal",
+			"original",
+			"_gaq",
+			"clone:",
+			"clone",
+			"videoPlayer",
+			"resetTracklist",
+			"updateProgressBar",
+			"timePlugin",
+			"videoPlayer",
+			"moreRe",
+			"viewMore",
+			"alert",
+			"event",
+			"project",
+			"keys",
+			"login",
+			"app",
+			"onYouTubePlayerReady",
+			"hash",
+			"validator",
+			"configureForm",
+			"loginPAnel",
+			"user",
+			"assert",
+			"playSiblin",
+			"console",
+			"model",
+			"publish",
+			"loader",
+			"templateEngine",
+			"logger",
+			"updateBt",
+			"logger",
+			"popPanel",
+			"modal",
+			"loginHandler",
+			"configure",
+			"getPlaylistEl"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/service.js",
+					"settings":
+					{
+						"buffer_size": 3048,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1402,
+								1402
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 509.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/goear_api.js",
+					"settings":
+					{
+						"buffer_size": 2472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1914,
+								1914
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 646.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test/goear_api_test.js",
+					"settings":
+					{
+						"buffer_size": 524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								124
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								820,
+								820
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "grunt.js",
+					"settings":
+					{
+						"buffer_size": 1169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								37
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"custom",
+				"public/css/custom.css"
+			],
+			[
+				"popover",
+				"public/js/plugins/popover.js"
+			],
+			[
+				"player",
+				"public/js/plugins/player.js"
+			],
+			[
+				"bootstra",
+				"public/js/lib/bootstrap/bootstrap-ext.js"
+			],
+			[
+				"tracklist",
+				"public/js/views/tracklist_view.js"
+			],
+			[
+				"seeker_v",
+				"public/js/views/seeker_view.js"
+			],
+			[
+				"playlist",
+				"public/js/views/playlists_view.js"
+			],
+			[
+				"trac",
+				"public/js/views/tracklist_view.js"
+			],
+			[
+				"tracklis",
+				"public/js/views/tracklist_view.js"
+			],
+			[
+				"boo",
+				"public/css/bootstrap-2.0.2.css"
+			],
+			[
+				"templates",
+				"public/js/plugins/templates.js"
+			],
+			[
+				"modal",
+				"public/js/views/modal_view.js"
+			],
+			[
+				"trackist",
+				"public/js/views/tracklist_view.js"
+			],
+			[
+				"playlist_view",
+				"public/js/views/playlists_view.js"
+			],
+			[
+				"boot",
+				"public/css/bootstrap.css"
+			],
+			[
+				"cusom",
+				"public/css/custom.css"
+			],
+			[
+				"login",
+				"public/js/views/login_view.js"
+			],
+			[
+				"modal_vi",
+				"public/js/views/modal_view.js"
+			],
+			[
+				"seeker",
+				"public/js/views/seeker_view.js"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"searchresultitemview",
+				"public/js/views/search_result_item_view.js"
+			],
+			[
+				"seeke",
+				"public/js/views/seeker_view.js"
+			],
+			[
+				"index.",
+				"lib/controllers/index.js"
+			],
+			[
+				"playlists_",
+				"public/js/views/playlists_view.js"
+			],
+			[
+				"jquery.ui",
+				"public/js/lib/jquery/jquery-ui-1.8.23.custom.min.js"
+			],
+			[
+				"playlists",
+				"public/js/views/playlists_view.js"
+			],
+			[
+				"grunt",
+				"grunt.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"gru",
+				"grunt.js"
+			],
+			[
+				"seekerview",
+				"public/js/views/seeker_view.js"
+			],
+			[
+				"time",
+				"public/js/plugins/time.js"
+			],
+			[
+				"backbone",
+				"public/js/lib/backbone/backbone-ext.js"
+			],
+			[
+				"model",
+				"lib/models/index.js"
+			],
+			[
+				"playli",
+				"public/js/views/playlists_view.js"
+			],
+			[
+				"cu",
+				"public/css/custom.css"
+			],
+			[
+				"bac",
+				"public/js/lib/backbone/backbone-ext.js"
+			],
+			[
+				"backbon",
+				"public/js/lib/backbone/backbone.js"
+			],
+			[
+				"models/inde",
+				"lib/models/index.js"
+			],
+			[
+				"index.js",
+				"lib/models/index.js"
+			],
+			[
+				"models.js",
+				"lib/models/index.js"
+			],
+			[
+				"user.",
+				"public/js/models/user.js"
+			],
+			[
+				"main",
+				"public/js/main.js"
+			],
+			[
+				"user",
+				"public/js/models/user.js"
+			],
+			[
+				"grun",
+				"grunt.js"
+			],
+			[
+				"user_menu",
+				"public/js/views/user_menu_view.js"
+			],
+			[
+				"jquery",
+				"public/js/lib/jquery/jquery-1.7.2.js"
+			],
+			[
+				"app_",
+				"public/js/views/app_menu_view.js"
+			],
+			[
+				"index.jade",
+				"views/index.jade"
+			],
+			[
+				"analyt",
+				"views/analytics.jade"
+			],
+			[
+				"mustache",
+				"public/js/lib/mustache/mustache.js"
+			],
+			[
+				"custom.css",
+				"public/css/custom.css"
+			],
+			[
+				"bootstrap",
+				"public/css/bootstrap-2.0.2.css"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"userloade",
+				"lib/userLoader.js"
+			],
+			[
+				"validation",
+				"public/js/lib/jquery/jquery.validation.js"
+			],
+			[
+				"index2.ja",
+				"views/index2.jade"
+			],
+			[
+				"_login",
+				"views/templates/_login.jade"
+			],
+			[
+				"cutom",
+				"public/css/custom.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/telemaco/Desarrollo/Node/Proyectos/chronos/chronos.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 337.0,
+	"status_bar_visible": true
+}

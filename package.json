@@ -1,0 +1,43 @@
+{
+  "name": "goear_api",
+  "description": "Simple API to goear service.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/PaquitoSoft/goear_api",
+  "author": {
+    "name": "PaquitoSoft",
+    "email": "paquitosoftware@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PaquitoSoft/goear_api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PaquitoSoft/goear_api/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/PaquitoSoft/goear_api/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/goear_api",
+  "engines": {
+    "node": ">= 0.8.4"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "request": ">= 2.0.0",
+    "cheerio": ">= 0.10.3",
+    "underscore": ">= 1.4.0",
+    "async": ">= 0.1.22"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.12",
+    "mocha": ">= 1.7.0",
+    "grunt-simple-mocha": ">= 0.2.0",
+    "chai": ">= 1.4.0"
+  },
+  "keywords": []
+}

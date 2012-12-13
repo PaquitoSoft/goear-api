@@ -44,7 +44,7 @@ describe('GoEar API tests', function() {
         expect(data.tracks).to.have.length(10);
         expect(data.tracks[0]).to.include.keys('id', 'title', 'quality', 'duration');
         expect(data.tracks[0]).to.not.have.keys('artist', 'link');
-        var filteredTracks = filterTracks(data.tracks, 128);
+        var filteredTracks = filterTracks(data.tracks, 0);
         expect(filteredTracks).to.have.length(data.tracks.length);
         done();
       });
@@ -55,6 +55,7 @@ describe('GoEar API tests', function() {
       api.search("U2", {
         minQuality: minQuality
       }, function(err, data) {
+        expect(data.totalCount).to.not.exist;
         var filteredTracks = filterTracks(data.tracks, minQuality);
         expect(filteredTracks).to.have.length(data.tracks.length);
         done();
@@ -103,6 +104,28 @@ describe('GoEar API tests', function() {
       });
     });
     
+    it("Should return available results when looking for more results than api could return in a reasonable time", function(done) {
+      var startTime = Date.now(),
+          resultsCount = 100,
+          finished = false;
+      api.search("Mike Oldfield", {
+        resultsCount: resultsCount,
+        minQuality: 320,
+        timeout: 5000
+      }, function(err, data) {
+        expect(err).to.be.null;
+        expect(data.tracks).to.have.length.above(0);
+        expect(data.tracks).to.have.length.below(resultsCount);
+        expect(Date.now() - startTime).to.be.above(5000);
+        finished = true;
+        done();
+      });
+    });
+
+    setTimeout(function(finished) {
+      // Test should be running
+      expect(finished).to.not.be.true;
+    }, 3000);
   });
 
   describe('#lookup', function() {

@@ -21,21 +21,23 @@ There are only two methods in this API:
 
 ### search(searchTerm, options, callback)
 
-This method sends a request to the service in order to search for provided terms
-Provided callback is called when results are available. 
+This method sends a request to the service in order to search for provided terms.  
+Provided callback is called when results are available.  
+Due to the nature of the provider, chances are that the request can't be completed in a reasonable amount of time (example: You search for 100 songs of Michael Jackson with a minimum quality of 320kbps). In that case, the api will return the songs it had time to get.
 
 **Arguments:**
 
 - **searchTerm** {String} (required): The text we want to search
 - **options** {Object} (optional): Search options
 	- **<i>extendedInfo</i>** (Boolean - default: false): Service basic searchs does not return song's artist and link. Set this to true if you want it to. Makes request slower as it has to perform more requests under the hood.
-	- **<i>resultsCount</i>** (Number - default: 10): Number of results we want the function to return
-	- **<i>offset</i>** (Number - default: 1): Used when paginating to tell the function which pag we need
-	- **<i>minQuality</i>** (Number - default: 128): Used to filter songs with poor quality (Songs will have a quality equals or greater than this one)
+	- **<i>resultsCount</i>** (Number - default: 10): Number of results we want the function to return.
+	- **<i>offset</i>** (Number - default: 1): Used when paginating to tell the function which pag we need.
+	- **<i>minQuality</i>** (Number - default: 0): Used to filter songs with poor quality (Songs will have a quality equals or greater than this one).
+	- **<i>timeout</i>** (Number - default: 15000): Milliseconds until api should stop searching.
 - **callback** {Function} (required): Function to be called when results are available. The callback will have two params
 	- **<i>error</i>** {Error}: If there is any error while searching
 	- **<i>data</i>** {Object}: An object with the results. It has two params
-		- **<i>totalCount</i>** {Number}: Total songs available for current search
+		- **<i>totalCount</i>** {Number}: Total songs available for current search. This attribute will not exist if you filter your search by minQuality as the service provider is not able to return that info in a reasonable amount of time.
 		- **<i>tracks</i>**: {Array}: Songs found. Each element is an object with these params:
 			- **<i>id</i>** {String}: Song identifier
 			- **<i>title</i>** {String}: Song title

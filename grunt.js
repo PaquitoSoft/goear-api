@@ -10,7 +10,7 @@ module.exports = function(grunt) {
         src: 'test/**/*.js',
         options: {
           globals: ['describe', 'it'],
-          timeout: 15000,
+          timeout: 20000,
           ignoreLeaks: false,
           ui: 'bdd',
           reporter: 'spec'

@@ -1,1 +1,5 @@
 /node_modules/
+.DS_Store
+.gitignore
+.travis.yml
+goear_api.sublime*

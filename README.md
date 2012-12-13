@@ -63,7 +63,6 @@ api.search("The Police - Bring on the night", {
 	resultsCount: 25,
 	minQuality: 256
 }, function(error, data) {
-	console.log("Total songs available: " + data.totalCount);
 	console.log("First title available: " + data.tracks[0].title);
 });
 ```
@@ -74,10 +73,10 @@ If you performed a search using <i>extendedInfo</i> param set to false, you can 
 
 **Arguments:**
 
-- trackId {String | Object | Array} (required): Here is where you say which tracks you want extended info for. You can provide a song identifier, an array of them, a track object or an array of them.
-- callback {Function} (required): Function to be called when results are available. It will be passed two params:
-	- error {Error}: If there was an error trying to get the info
-	- data {Object | Array}: If you provided a single identifier or track object, this will be a single object. If you used an array, this will be another array
+- **<i>trackId</i>** {String | Object | Array} (required): Here is where you say which tracks you want extended info for. You can provide a song identifier, an array of them, a track object or an array of them.
+- **<i>callback</i>** {Function} (required): Function to be called when results are available. It will be passed two params:
+	- **<i>error</i>** {Error}: If there was an error trying to get the info
+	- **<i>data</i>** {Object | Array}: If you provided a single identifier or track object, this will be a single object. If you used an array, this will be another array
 
 
 **Examples:**

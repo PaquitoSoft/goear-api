@@ -29,6 +29,17 @@ describe('GoEar API tests', function() {
       });
     });
 
+    it("should return valid content", function(done) {
+      api.search("David Guetta - She Wolf", function(err, data) {
+        expect(err).to.be.null;
+        expect(data).to.exist;
+        expect(data.tracks).to.have.length.above(0);
+        expect(data.tracks[0]).to.include.keys('id', 'title', 'quality', 'duration');
+        expect(data.tracks[0].title).to.match(/she wolf/i);
+        done();
+      });
+    });
+
     it("should return an empty result when searching for an unknown value", function(done) {
       api.search("123lkj123lkj", function(err, data) {
         expect(err).to.be.null;
@@ -195,7 +206,18 @@ describe('GoEar API tests', function() {
           done();
         });
       });
+    });
 
+    it("should return valid content", function(done) {
+      var trackId = "4decb04";
+      api.lookup(trackId, function(err, data) {
+        expect(err).to.be.null;
+        expect(data).to.be.an('object');
+        expect(data).to.include.keys('id', 'title', 'artist', 'link');
+        expect(data.title).to.equals('She Wolf');
+        expect(data.artist).to.equals('David Guetta Ft Sia');
+        done();
+      });
     });
   });
 

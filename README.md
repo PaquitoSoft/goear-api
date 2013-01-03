@@ -1,4 +1,4 @@
-# goear_api [![Build Status](https://travis-ci.org/PaquitoSoft/goear-api.png)](https://travis-ci.org/PaquitoSoft/goear-api)
+# goear_api [![Build Status](https://travis-ci.org/PaquitoSoft/goear-api.png?branch=master)](https://travis-ci.org/PaquitoSoft/goear-api)
 
 Simple API to goear service.
 This is a humble attemp to create an easy to use API for consuming [GoEar](http://goear.com/) music info.

@@ -12,7 +12,7 @@ function filterTracks(tracks, quality) {
 
 describe('GoEar API tests', function() {
   "use strict";
-  
+
   describe('#search', function() {
 
     it("should return valid results", function(done) {
@@ -53,8 +53,7 @@ describe('GoEar API tests', function() {
     it("should return valid values when using default options", function(done) {
       api.search("The Police", function(err, data) {
         expect(data.tracks).to.have.length(10);
-        expect(data.tracks[0]).to.include.keys('id', 'title', 'quality', 'duration');
-        expect(data.tracks[0]).to.not.have.keys('artist', 'link');
+        expect(data.tracks[0]).to.include.keys('id', 'title', 'quality', 'duration', 'artist', 'link');
         var filteredTracks = filterTracks(data.tracks, 0);
         expect(filteredTracks).to.have.length(data.tracks.length);
         done();
@@ -137,88 +136,6 @@ describe('GoEar API tests', function() {
       // Test should be running
       expect(finished).to.not.be.true;
     }, 3000);
-  });
-
-  describe('#lookup', function() {
-    it("Should return extended info for a known song", function(done) {
-      var trackId = 'acd6d6d';
-      api.lookup(trackId, function(err, data) {
-        expect(err).to.be.null;
-        expect(data).to.not.be.null;
-        expect(data).to.be.a('object');
-        expect(data).to.not.be.an('array');
-        expect(data).to.include.keys('id', 'title', 'artist', 'link');
-        expect(data.id).to.be.equal(trackId);
-        done();
-      });
-    });
-    it("Should return an error when no info is found", function(done) {
-      var trackId = '----NONE----';
-      api.lookup(trackId, function(err, data) {
-        expect(err).to.not.be.null;
-        expect(data).to.not.exist;
-        expect(err.toString()).to.contain('No extended info found');
-        done();
-      });
-    });
-    it("Should return a single result when looking for a single song", function(done) {
-      var trackId = 'acd6d6d';
-      api.lookup(trackId, function(err, data) {
-        expect(err).to.be.null;
-        expect(data).to.be.an('object');
-        expect(data.length).to.not.exist;
-        expect(data).to.include.keys('id', 'title', 'artist', 'link');
-        done();
-      });
-    });
-    it("Should return several results when looking for several songs", function(done) {
-      var tracksIds = ['acd6d6d', 'c6646df', '7d0e059'];
-      api.lookup(tracksIds, function(err, data) {
-        expect(data).to.be.instanceof(Array);
-        expect(data.length).to.be.equal(3);
-        data.forEach(function(track, index) {
-          expect(track.id).to.be.equal(tracksIds[index]);
-          expect(track.artist).to.exist;
-          expect(track.link).to.exist;
-        });
-        done();
-      });
-    });
-    it("Should return a valid result when using a track identifier", function(done) {
-      var trackId = 'acd6d6d';
-      api.lookup(trackId, function(err, data) {
-        expect(data).to.be.an('object');
-        expect(data.id).to.be.equal(trackId);
-        expect(data).to.include.keys('id', 'title', 'artist', 'link');
-        done();
-      });
-    });
-    it("Should return a valid result when using a track object", function(done) {
-      var searchTerm = "Iron Maiden - The Trooper";
-      api.search(searchTerm, {
-        resultsCount: 10
-      }, function(err, data) {
-        api.lookup(data.tracks[0], function(innerErr, innerData) {
-          expect(innerData).to.be.an('object');
-          expect(innerData).to.include.keys('id', 'title', 'artist', 'link');
-          expect(innerData.id).to.be.equal(data.tracks[0].id);
-          expect(innerData.title).to.be.equal(data.tracks[0].title);
-          done();
-        });
-      });
-    });
-
-    it("should return valid content", function(done) {
-      var trackId = "4decb04";
-      api.lookup(trackId, function(err, data) {
-        expect(err).to.be.null;
-        expect(data).to.be.an('object');
-        expect(data).to.include.keys('id', 'title', 'artist', 'link');
-        expect(data.title).to.equals('She Wolf');
-        expect(data.artist).to.equals('David Guetta Ft Sia');
-        done();
-      });
-    });
   });
 
 });

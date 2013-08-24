@@ -17,7 +17,7 @@ describe('GoEar API tests', function() {
 
     it("should return valid results", function(done) {
       api.search("David Guetta", function(err, data) {
-      	expect(err).to.be.null;
+        expect(err).to.be.null;
         expect(data).to.not.be.null;
         expect(data).to.be.an('object');
         expect(data).to.include.keys('tracks', 'totalCount');
@@ -118,15 +118,15 @@ describe('GoEar API tests', function() {
       var startTime = Date.now(),
           resultsCount = 100,
           finished = false;
-      api.search("Mike Oldfield", {
+      api.search("Genesis Jesus", {
         resultsCount: resultsCount,
         minQuality: 320,
-        timeout: 5000
+        timeout: 2500
       }, function(err, data) {
         expect(err).to.be.null;
         expect(data.tracks).to.have.length.above(0);
         expect(data.tracks).to.have.length.below(resultsCount);
-        expect(Date.now() - startTime).to.be.above(5000);
+        expect(Date.now() - startTime).to.be.above(2500);
         finished = true;
         done();
       });

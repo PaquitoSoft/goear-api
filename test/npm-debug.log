@@ -1,0 +1,33 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/telemaco/Desarrollo/Node/Librerias/nvm/v0.8.4/bin/node',
+1 verbose cli   '/Users/telemaco/Desarrollo/Node/Librerias/nvm/v0.8.4/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.1.45
+3 info using node@v0.8.4
+4 verbose config file /Users/telemaco/.npmrc
+5 verbose config file /Users/telemaco/Desarrollo/Node/Librerias/nvm/v0.8.4/etc/npmrc
+6 verbose config file /Users/telemaco/Desarrollo/Node/Librerias/nvm/v0.8.4/lib/node_modules/npm/npmrc
+7 verbose publish [ '.' ]
+8 verbose read json /Users/telemaco/Desarrollo/Node/Proyectos/goear_api/test/package.json
+9 verbose cache add [ '.', null ]
+10 silly cache add name=undefined spec="." args=[".",null]
+11 verbose parsed url { pathname: '.', path: '.', href: '.' }
+12 silly lockFile 3a52ce78- .
+13 verbose lock . /Users/telemaco/.npm/3a52ce78-.lock
+14 verbose read json package.json
+15 silly lockFile 3a52ce78- .
+16 error addLocal Could not install .
+17 error Error: ENOENT, open 'package.json'
+18 error If you need help, you may report this log at:
+18 error     <http://github.com/isaacs/npm/issues>
+18 error or email it to:
+18 error     <npm-@googlegroups.com>
+19 error System Darwin 10.8.0
+20 error command "/Users/telemaco/Desarrollo/Node/Librerias/nvm/v0.8.4/bin/node" "/Users/telemaco/Desarrollo/Node/Librerias/nvm/v0.8.4/bin/npm" "publish"
+21 error cwd /Users/telemaco/Desarrollo/Node/Proyectos/goear_api/test
+22 error node -v v0.8.4
+23 error npm -v 1.1.45
+24 error path package.json
+25 error code ENOENT
+26 error errno 34
+27 verbose exit [ 34, true ]

@@ -1,0 +1,126 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/telemaco/Desarrollo/Node/Librerias/nvm/v0.8.4/bin/node',
+1 verbose cli   '/Users/telemaco/Desarrollo/Node/Librerias/nvm/v0.8.4/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.1.45
+3 info using node@v0.8.4
+4 verbose config file /Users/telemaco/.npmrc
+5 verbose config file /Users/telemaco/Desarrollo/Node/Librerias/nvm/v0.8.4/etc/npmrc
+6 verbose config file /Users/telemaco/Desarrollo/Node/Librerias/nvm/v0.8.4/lib/node_modules/npm/npmrc
+7 verbose publish [ '.' ]
+8 verbose read json /Users/telemaco/Desarrollo/Node/Proyectos/goear_api/package.json
+9 verbose cache add [ '.', null ]
+10 silly cache add name=undefined spec="." args=[".",null]
+11 verbose parsed url { pathname: '.', path: '.', href: '.' }
+12 silly lockFile 3a52ce78- .
+13 verbose lock . /Users/telemaco/.npm/3a52ce78-.lock
+14 verbose read json package.json
+15 verbose tar pack [ '/var/folders/US/USN4ogIfH8eDETQNynUL8k+++TI/-Tmp-/npm-3379/1378234775650-0.8983695567585528/tmp.tgz',
+15 verbose tar pack   '.' ]
+16 verbose tarball /var/folders/US/USN4ogIfH8eDETQNynUL8k+++TI/-Tmp-/npm-3379/1378234775650-0.8983695567585528/tmp.tgz
+17 verbose folder .
+18 info prepublish goear_api@1.3.2
+19 silly lockFile 5a249985-75650-0-8983695567585528-tmp-tgz /var/folders/US/USN4ogIfH8eDETQNynUL8k+++TI/-Tmp-/npm-3379/1378234775650-0.8983695567585528/tmp.tgz
+20 verbose lock /var/folders/US/USN4ogIfH8eDETQNynUL8k+++TI/-Tmp-/npm-3379/1378234775650-0.8983695567585528/tmp.tgz /Users/telemaco/.npm/5a249985-75650-0-8983695567585528-tmp-tgz.lock
+21 silly lockFile 5a249985-75650-0-8983695567585528-tmp-tgz /var/folders/US/USN4ogIfH8eDETQNynUL8k+++TI/-Tmp-/npm-3379/1378234775650-0.8983695567585528/tmp.tgz
+22 verbose tar unpack /var/folders/US/USN4ogIfH8eDETQNynUL8k+++TI/-Tmp-/npm-3379/1378234775650-0.8983695567585528/tmp.tgz
+23 silly lockFile 787c1da3-75650-0-8983695567585528-package /var/folders/US/USN4ogIfH8eDETQNynUL8k+++TI/-Tmp-/npm-3379/1378234775650-0.8983695567585528/package
+24 verbose lock /var/folders/US/USN4ogIfH8eDETQNynUL8k+++TI/-Tmp-/npm-3379/1378234775650-0.8983695567585528/package /Users/telemaco/.npm/787c1da3-75650-0-8983695567585528-package.lock
+25 silly gunzTarPerm modes [ '755', '644' ]
+26 silly gunzTarPerm extractEntry package.json
+27 silly gunzTarPerm extractEntry .npmignore
+28 silly gunzTarPerm extractEntry README.md
+29 silly gunzTarPerm extractEntry Gruntfile.js
+30 silly gunzTarPerm extractEntry grunt.js
+31 silly gunzTarPerm extractEntry lib/goear_api.js
+32 silly gunzTarPerm extractEntry lib/service.js
+33 silly gunzTarPerm extractEntry LICENSE-MIT
+34 silly gunzTarPerm extractEntry test/goear_api_test.js
+35 verbose read json /var/folders/US/USN4ogIfH8eDETQNynUL8k+++TI/-Tmp-/npm-3379/1378234775650-0.8983695567585528/package/package.json
+36 silly lockFile 787c1da3-75650-0-8983695567585528-package /var/folders/US/USN4ogIfH8eDETQNynUL8k+++TI/-Tmp-/npm-3379/1378234775650-0.8983695567585528/package
+37 verbose from cache /var/folders/US/USN4ogIfH8eDETQNynUL8k+++TI/-Tmp-/npm-3379/1378234775650-0.8983695567585528/package/package.json
+38 verbose tar pack [ '/Users/telemaco/.npm/goear_api/1.3.2/package.tgz',
+38 verbose tar pack   '/var/folders/US/USN4ogIfH8eDETQNynUL8k+++TI/-Tmp-/npm-3379/1378234775650-0.8983695567585528/package' ]
+39 verbose tarball /Users/telemaco/.npm/goear_api/1.3.2/package.tgz
+40 verbose folder /var/folders/US/USN4ogIfH8eDETQNynUL8k+++TI/-Tmp-/npm-3379/1378234775650-0.8983695567585528/package
+41 silly lockFile 3d1cbee8--npm-goear-api-1-3-2-package-tgz /Users/telemaco/.npm/goear_api/1.3.2/package.tgz
+42 verbose lock /Users/telemaco/.npm/goear_api/1.3.2/package.tgz /Users/telemaco/.npm/3d1cbee8--npm-goear-api-1-3-2-package-tgz.lock
+43 silly lockFile 3d1cbee8--npm-goear-api-1-3-2-package-tgz /Users/telemaco/.npm/goear_api/1.3.2/package.tgz
+44 silly lockFile 9a19ec4f-maco-npm-goear-api-1-3-2-package /Users/telemaco/.npm/goear_api/1.3.2/package
+45 verbose lock /Users/telemaco/.npm/goear_api/1.3.2/package /Users/telemaco/.npm/9a19ec4f-maco-npm-goear-api-1-3-2-package.lock
+46 silly lockFile 9a19ec4f-maco-npm-goear-api-1-3-2-package /Users/telemaco/.npm/goear_api/1.3.2/package
+47 verbose tar unpack /Users/telemaco/.npm/goear_api/1.3.2/package.tgz
+48 silly lockFile 9a19ec4f-maco-npm-goear-api-1-3-2-package /Users/telemaco/.npm/goear_api/1.3.2/package
+49 verbose lock /Users/telemaco/.npm/goear_api/1.3.2/package /Users/telemaco/.npm/9a19ec4f-maco-npm-goear-api-1-3-2-package.lock
+50 silly gunzTarPerm modes [ '755', '644' ]
+51 silly gunzTarPerm extractEntry package.json
+52 silly gunzTarPerm extractEntry .npmignore
+53 silly gunzTarPerm extractEntry README.md
+54 silly gunzTarPerm extractEntry grunt.js
+55 silly gunzTarPerm extractEntry Gruntfile.js
+56 silly gunzTarPerm extractEntry lib/goear_api.js
+57 silly gunzTarPerm extractEntry lib/service.js
+58 silly gunzTarPerm extractEntry LICENSE-MIT
+59 silly gunzTarPerm extractEntry test/goear_api_test.js
+60 verbose read json /Users/telemaco/.npm/goear_api/1.3.2/package/package.json
+61 silly lockFile 9a19ec4f-maco-npm-goear-api-1-3-2-package /Users/telemaco/.npm/goear_api/1.3.2/package
+62 silly shasum updated bytes 6580
+63 info shasum c8971dc014adf48680af6e208bc92491e9ab8bbb
+63 info shasum /Users/telemaco/.npm/goear_api/1.3.2/package.tgz
+64 verbose from cache /Users/telemaco/.npm/goear_api/1.3.2/package/package.json
+65 verbose chmod /Users/telemaco/.npm/goear_api/1.3.2/package.tgz 644
+66 verbose chown /Users/telemaco/.npm/goear_api/1.3.2/package.tgz [ 501, 20 ]
+67 silly lockFile 3a52ce78- .
+68 silly publish { name: 'goear_api',
+68 silly publish   description: 'Simple API to goear service.',
+68 silly publish   version: '1.3.2',
+68 silly publish   homepage: 'https://github.com/PaquitoSoft/goear-api',
+68 silly publish   author: { name: 'PaquitoSoft', email: 'paquitosoftware@gmail.com' },
+68 silly publish   repository:
+68 silly publish    { type: 'git',
+68 silly publish      url: 'git://github.com/PaquitoSoft/goear-api.git' },
+68 silly publish   bugs: { url: 'https://github.com/PaquitoSoft/goear-api/issues' },
+68 silly publish   licenses:
+68 silly publish    [ { type: 'MIT',
+68 silly publish        url: 'https://github.com/PaquitoSoft/goear-api/blob/master/LICENSE-MIT' } ],
+68 silly publish   main: 'lib/goear_api',
+68 silly publish   engines: { node: '>= 0.8.4' },
+68 silly publish   scripts: { test: 'grunt test' },
+68 silly publish   dependencies:
+68 silly publish    { request: '2.0.0',
+68 silly publish      cheerio: '0.10.3',
+68 silly publish      underscore: '1.4.0',
+68 silly publish      async: '0.1.22' },
+68 silly publish   devDependencies:
+68 silly publish    { 'grunt-cli': '0.1.9',
+68 silly publish      grunt: '0.4.1',
+68 silly publish      mocha: '1.7.0',
+68 silly publish      'grunt-simple-mocha': '0.4.0',
+68 silly publish      chai: '1.4.0' },
+68 silly publish   keywords: [ 'music', 'api', 'service' ],
+68 silly publish   readme: '# goear_api [![Build Status](https://travis-ci.org/PaquitoSoft/goear-api.png?branch=master)](https://travis-ci.org/PaquitoSoft/goear-api)\n\nSimple API to goear service.\nThis is a humble attemp to create an easy to use API for consuming [GoEar](http://goear.com/) music info.\n\n## Getting Started\nInstall the module with: `npm install goear_api`\n\n```javascript\nvar api = require(\'goear_api\');\n\napi.search("The Police - Bring on the night", function(err, data) {\n\tconsole.log("Total songs available: " + data.totalCount);\n\tconsole.log("First title available: " + data.tracks[0].title);\n});\n```\n\n## Documentation\n\nThere is only one methods in this API:\n\n### search(searchTerm, options, callback)\n\nThis method sends a request to the service in order to search for provided terms.  \nProvided callback is called when results are available.  \nDue to the nature of the provider, chances are that the request can\'t be completed in a reasonable amount of time (example: You search for 100 songs of Michael Jackson with a minimum quality of 320kbps). In that case, the api will return the songs it had time to get.\n\n**Arguments:**\n\n- **searchTerm** {String} (required): The text we want to search\n- **options** {Object} (optional): Search options\n\t- **<i>resultsCount</i>** (Number - default: 10): Number of results we want the function to return.\n\t- **<i>offset</i>** (Number - default: 1): Used when paginating to tell the function which pag we need.\n\t- **<i>minQuality</i>** (Number - default: 0): Used to filter songs with poor quality (Songs will have a quality equals or greater than this one).\n\t- **<i>timeout</i>** (Number - default: 15000): Milliseconds until api should stop searching.\n- **callback** {Function} (required): Function to be called when results are available. The callback will have two params\n\t- **<i>error</i>** {Error}: If there is any error while searching\n\t- **<i>data</i>** {Object}: An object with the results. It has two params\n\t\t- **<i>totalCount</i>** {Number}: Total songs available for current search. This attribute will not exist if you filter your search by minQuality as the service provider is not able to return that info in a reasonable amount of time.\n\t\t- **<i>tracks</i>**: {Array}: Songs found. Each element is an object with these params:\n\t\t\t- **<i>id</i>** {String}: Song identifier\n\t\t\t- **<i>title</i>** {String}: Song title\n\t\t\t- **<i>quality</i>** {Number}: Quality (bitrate) of this song\n\t\t\t- **<i>duration</i>** {String}: Songs length with this format (MM:ss)\n\t\t\t- **<i>artist</i>** {String}: Song\'s artist name\n\t\t\t- **<i>link</i>** {String}: URL to the mp3 file for this song\n\n**Examples:**\n\n```javascript\nvar api = require(\'goear_api\');\n\n// Basic search\napi.search("Vetusta Morla", function(error, data) {\n\tconsole.log("Total songs available: " + data.totalCount);\n\tconsole.log("Returned songs: " + data.tracks.length): // Should be 10\n\tconsole.log("First title available: " + data.tracks[0].title);\n});\n\n// Search for a song expecting 25 results with a quality equal or greater than 256kbs\napi.search("The Police - Bring on the night", {\n\tresultsCount: 25,\n\tminQuality: 256\n}, function(error, data) {\n\tconsole.log("First title available: " + data.tracks[0].title);\n});\n```\n\n## License\nCopyright (c) 2012 PaquitoSoft  \nLicensed under the MIT license.\n',
+68 silly publish   _id: 'goear_api@1.3.2',
+68 silly publish   dist: { shasum: 'c8971dc014adf48680af6e208bc92491e9ab8bbb' } }
+69 verbose url raw goear_api
+70 verbose url resolving [ 'https://registry.npmjs.org/', './goear_api' ]
+71 verbose url resolved https://registry.npmjs.org/goear_api
+72 info retry registry request attempt 1 at 20:59:36
+73 http PUT https://registry.npmjs.org/goear_api
+74 http 409 https://registry.npmjs.org/goear_api
+75 verbose url raw goear_api
+76 verbose url resolving [ 'https://registry.npmjs.org/', './goear_api' ]
+77 verbose url resolved https://registry.npmjs.org/goear_api
+78 info retry registry request attempt 1 at 20:59:38
+79 http GET https://registry.npmjs.org/goear_api
+80 http 200 https://registry.npmjs.org/goear_api
+81 error publish fail Cannot publish over existing version.
+81 error publish fail Bump the 'version' field, set the --force flag, or
+81 error publish fail     npm unpublish 'goear_api@1.3.2'
+81 error publish fail and try again
+82 error System Darwin 10.8.0
+83 error command "/Users/telemaco/Desarrollo/Node/Librerias/nvm/v0.8.4/bin/node" "/Users/telemaco/Desarrollo/Node/Librerias/nvm/v0.8.4/bin/npm" "publish"
+84 error cwd /Users/telemaco/Desarrollo/Node/Proyectos/goear_api
+85 error node -v v0.8.4
+86 error npm -v 1.1.45
+87 error code EPUBLISHCONFLICT
+88 verbose exit [ 1, true ]

@@ -1,7 +1,8 @@
 /*global describe:true, before:true, it:true */
 var api = require('../lib/goear_api.js'),
     expect = require('chai').expect,
-    util = require('util');
+    util = require('util'),
+    request = require('request');
 
 function filterTracks(tracks, quality) {
   return tracks.filter(function(t) {
@@ -31,7 +32,7 @@ describe('GoEar API tests', function() {
 
     it("should return valid content", function(done) {
       api.search("David Guetta - She Wolf", function(err, data) {
-      	expect(err).to.be.null;
+        expect(err).to.be.null;
         expect(data).to.exist;
         expect(data.tracks).to.have.length.above(0);
         expect(data.tracks[0]).to.include.keys('id', 'title', 'quality', 'duration');
@@ -40,9 +41,20 @@ describe('GoEar API tests', function() {
       });
     });
 
+    it("Should return a valid track URL", function(done) {
+        api.search("David Guetta - She Wolf", function(err, data) {
+            request({
+                url: data.tracks[0].link,
+                method: 'HEAD'
+            }, function(err, resp, body) {
+                done();
+            });
+        });
+    });
+
     it("should return an empty result when searching for an unknown value", function(done) {
       api.search("123lkj123lkj", function(err, data) {
-      	expect(err).to.be.null;
+        expect(err).to.be.null;
         expect(data).to.not.be.null;
         expect(data.tracks).to.be.empty;
         expect(data.totalCount).to.equals(0);
@@ -52,7 +64,7 @@ describe('GoEar API tests', function() {
 
     it("should return valid values when using default options", function(done) {
       api.search("The Police", function(err, data) {
-      	expect(data.tracks).to.have.length(10);
+        expect(data.tracks).to.have.length(10);
         expect(data.tracks[0]).to.include.keys('id', 'title', 'quality', 'duration', 'artist', 'link');
         var filteredTracks = filterTracks(data.tracks, 0);
         expect(filteredTracks).to.have.length(data.tracks.length);
@@ -65,7 +77,7 @@ describe('GoEar API tests', function() {
       api.search("U2", {
         minQuality: minQuality
       }, function(err, data) {
-      	expect(data.totalCount).to.not.exist;
+        expect(data.totalCount).to.not.exist;
         var filteredTracks = filterTracks(data.tracks, minQuality);
         expect(filteredTracks).to.have.length(data.tracks.length);
         done();
@@ -77,7 +89,7 @@ describe('GoEar API tests', function() {
       api.search("Eric Clapton", {
         resultsCount: resultsCount
       }, function(err, data) {
-      	expect(data.tracks).to.have.length(resultsCount);
+        expect(data.tracks).to.have.length(resultsCount);
         done();
       });
     });
@@ -88,7 +100,7 @@ describe('GoEar API tests', function() {
       api.search(searchTerm, {
         resultsCount: 20
       }, function(err, data) {
-      	expect(err).to.be.null;
+        expect(err).to.be.null;
         expect(data.tracks).to.have.length(20);
         api.search(searchTerm, {
           offset: offset,
@@ -106,7 +118,7 @@ describe('GoEar API tests', function() {
       api.search("Seal", {
         extendedInfo: true
       }, function(err, data) {
-      	var result = data.tracks.every(function(t) {
+        var result = data.tracks.every(function(t) {
           return t.artist && t.link;
         });
         expect(result).to.be.true;

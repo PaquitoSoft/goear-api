@@ -118,7 +118,7 @@ describe('GoEar API tests', function() {
       api.search("Seal", {
         extendedInfo: true
       }, function(err, data) {
-        var result = data.tracks.every(function(t) {
+      	var result = data.tracks.every(function(t) {
           return t.artist && t.link;
         });
         expect(result).to.be.true;

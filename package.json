@@ -1,7 +1,7 @@
 {
   "name": "goear_api",
   "description": "Simple API to goear service.",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "homepage": "https://github.com/PaquitoSoft/goear-api",
   "author": {
     "name": "PaquitoSoft",

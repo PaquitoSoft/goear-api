@@ -2,6 +2,7 @@
 var api = require('../lib/goear_api.js'),
     expect = require('chai').expect,
     util = require('util'),
+    nock = require('nock'),
     request = require('request');
 
 function filterTracks(tracks, quality) {
@@ -151,6 +152,22 @@ describe('GoEar API tests', function() {
         expect(data.tracks).to.have.length.below(resultsCount);
         expect(Date.now() - startTime).to.be.above(2500);
         finished = true;
+        done();
+      });
+    });
+
+    it("should handle error on next requests when pagination is needed", function(done) {
+      var resultsCount = 50;
+
+      nock('http://www.goear.com', { allowUnmocked: true })
+        .get('/search/Eric%20Clapton/2')
+        .reply(555);
+
+      api.search("Eric Clapton", {
+        resultsCount: resultsCount
+      }, function(err, data) {
+        expect(err).to.not.be.null;
+        expect(err.message).to.equals('HTTP error code: 555');
         done();
       });
     });

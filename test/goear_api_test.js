@@ -41,17 +41,28 @@ describe('GoEar API tests', function() {
       });
     });
 
-    it("Should return a valid track URL", function(done) {
+    it("should return a valid track URL", function(done) {
+        var WARNING_TRACK_FILENAME = '32e73b9ea7a237a80f38b7e7bba97c54';
+
         api.search("David Guetta - She Wolf", function(err, data) {
             request({
                 url: data.tracks[0].link,
-                method: 'HEAD'
+                method: 'HEAD',
+                followRedirect: false,
+                headers: {
+                    // Requests to track URLs must include a 'Referer' header
+                    // If it is not provided, a default warning message track
+                    // is returned instead the original one
+                    'Referer': 'http://www.goear.com/'
+                }
             }, function(err, resp, body) {
+                expect([301, 302]).to.include(resp.statusCode);
+                expect(resp.headers.location).to.not.have.string(WARNING_TRACK_FILENAME);
                 done();
             });
         });
     });
-
+    
     it("should return an empty result when searching for an unknown value", function(done) {
       api.search("123lkj123lkj", function(err, data) {
         expect(err).to.be.null;

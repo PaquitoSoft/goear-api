@@ -44,6 +44,8 @@ Due to the nature of the provider, chances are that the request can't be complet
 			- **<i>duration</i>** {String}: Songs length with this format (MM:ss)
 			- **<i>artist</i>** {String}: Song's artist name
 			- **<i>link</i>** {String}: URL to the mp3 file for this song
+				- **IMPORTANT**: Always include a **Referer** header when requesting this URLs
+					- Example: `Referer: http://www.goear.com/`
 
 **Examples:**
 
